@@ -5013,3 +5013,5 @@ if CONFIG.AUTO_HIDE_ENABLED then
         end
     end)
 end
+
+end

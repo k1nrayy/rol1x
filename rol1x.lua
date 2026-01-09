@@ -1782,7 +1782,7 @@ function OPTIMIZER.Enable()
     pcall(function()
         local physics = settings().Physics
         physics.AllowSleep = true
-        physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Skip
+        physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.DefaultAuto
         physics.ThrottleAdjustTime = 0
     end)
     pcall(function()
